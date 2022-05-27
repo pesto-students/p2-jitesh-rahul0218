@@ -23,7 +23,7 @@ function time(fn){
 //Create a method called memoize such that:
 const memoizeAdd=memoize(add);
 //then calling...
-console.log(memoizeAdd(100,100));//returns 200
-console.log(memoizeAdd(100));//returns 100
-console.log(memoizeAdd(100,200));//returns 300
-console.log(memoizeAdd(100,100));//returns without computing 200
+console.log('Output is ' + memoizeAdd(100,100));//returns 200
+console.log('Output is ' + memoizeAdd(100));//returns 100
+console.log('Output is ' + memoizeAdd(100,200));//returns 300
+console.log('Output is ' + memoizeAdd(100,100));//returns without computing 200
