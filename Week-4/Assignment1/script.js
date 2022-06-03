@@ -5,6 +5,8 @@ const getNumber = new Promise((resolve, reject)=>{
      }, 1000);
  
  })
+ console.time();
  getNumber.then((val)=>console.log(`Resolve - ${val}`))
      .catch((val)=>console.error(`Reject - ${val}`))
      .finally(()=>console.error(`Finally`));
+     console.timeEnd();
