@@ -1,0 +1,247 @@
+.header .main-navgation {
+  flex: 1;
+  gap: 0;
+}
+.header {
+  padding: 45px 0;
+}
+.header .main-navgation {
+  flex: 1;
+  gap: 0;
+}
+
+.header .logo img {
+  height: 30px;
+}
+.header .burger-menu {
+  font-size: 22px;
+  color: #9e9aa7;
+  cursor: pointer;
+  display: none;
+}
+.header .main-navgation > div {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.container {
+  position: relative;
+  width: 78%;
+  margin: 0 auto;
+}
+.section-header {
+  text-align: center;
+  font-size: 35px;
+}
+img {
+  max-width: 100%;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.flex-ver-top {
+  align-items: flex-start;
+}
+.main-navgation a {
+  font-weight: 700;
+  font-size: 14px;
+  color: #9e9aa7;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.main-navgation a:hover {
+  color: #232127;
+}
+
+
+
+.landing {
+  display: flex;
+  align-items: center;
+  padding: 40px 0;
+  margin-left: 11%;
+  overflow-x: hidden;
+}
+
+.landing .landing-text {
+  flex: 1;
+  min-width: 465px;
+}
+
+.landing .landing-text h1 {
+  width: 100%;
+  font-size: 3.9em;
+  line-height: 1.15;
+}
+
+.landing .landing-text p {
+  font-size: 18px;
+  max-width: 500px;
+  margin: 0 0 29.41176px;
+}
+
+.landing .landing-image {
+  position: relative;
+  right: -70px;
+  
+}
+.features {
+  margin-top: 100px;
+  background-color: #eff0f5;
+}
+.url-shorten-form {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  background: #3b3054 no-repeat right top;
+  background-size: cover;
+  padding: 45px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  transform: translateY(-50%);
+  transition: gap 0.3s;
+}
+.url-shorten-form > div {
+  position: relative;
+  flex: 1;
+}
+.url-shorten-form .url-input {
+  width: 95%;
+  font-family: "Poppins", sans-serif, "Segoe UI", Tahoma, Geneva, Verdana;
+  font-size: 18px;
+  padding: 8px 20px;
+  background: white;
+  border: 2px solid transparent;
+  border-radius: 6px;
+  outline: none;
+  transition: 0.2s;
+}
+
+.url-shorten-form .url-input::placeholder {
+  font-family: "Poppins", sans-serif, "Segoe UI", Tahoma, Geneva, Verdana;
+  font-size: 16px;
+  font-weight: 500;
+  color: #9e9aa7;
+}
+
+.url-shorten-form .alert {
+  position: absolute;
+  left: 0;
+  top: calc(100% + 4px);
+  font-style: italic;
+  font-size: 16px;
+  color: #f46262;
+  opacity: 0;
+  transition: 0.2s opacity;
+}
+.url-shorten-form .btn {
+  text-align: center;
+  border-radius: inherit;
+  white-space: nowrap;
+  font-size: 16px;
+  cursor: pointer;
+}
+.url-shorten-form.empty {
+  gap: 37px;
+}
+.url-shorten-form.empty .url-input {
+  border-color: #f46262;
+}
+.url-shorten-form.empty .url-input::placeholder {
+  color: #f46262;
+  opacity: 0.5;
+}
+
+.url-shorten-form.empty .alert {
+  opacity: 1;
+}
+
+.url-shorten-form.success button {
+  background: #30c59b;
+}
+
+.url-shorten-results {
+  position: relative;
+  top: -60px;
+}
+
+.url-shorten-results .url-shorten-result {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  padding: 15px 25px;
+  background: white;
+  border-radius: 6px;
+  margin-bottom: 15.15152px;
+}
+
+.url-shorten-results .url-shorten-result > div p {
+  font-size: 17px;
+  word-break: break-word;
+}
+
+.url-shorten-results .url-shorten-result > div a:hover {
+  text-decoration: underline wavy #30c59b 2px;
+}
+
+
+.footer {
+  padding-top: 50px;
+  background: #232127;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 70px;
+  flex-wrap: wrap;
+}
+.footer .logo {
+  flex: 1 0 auto;
+}
+
+.footer .logo img {
+  filter: brightness(10);
+}
+
+.footer .quick-links {
+  display: flex;
+  gap: 60px;
+}
+.footer .quick-links .links-group {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer .links-group span {
+  color: white;
+  font-weight: 700;
+}
+
+.footer .links-group > div {
+  display: flex;
+  flex-direction: column;
+  gap: 6.66667px;
+}
+
+.footer .links-group a {
+  color: #bfbfbf;
+  font-size: 13px;
+  transition: 0.2s color;
+  text-decoration: none;
+}
+
+.footer .links-group a:hover {
+  color: cyan;
+}
