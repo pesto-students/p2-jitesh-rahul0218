@@ -170,6 +170,10 @@ img {
 .url-shorten-results {
   position: relative;
   top: -60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
 }
 
 .url-shorten-results .url-shorten-result {
@@ -187,6 +191,21 @@ img {
 .url-shorten-results .url-shorten-result > div p {
   font-size: 17px;
   word-break: break-word;
+  color: #fff;
+  border: 1px solid var(--primary-color);
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+}
+.url-shorten-results button{
+  padding:  0.5rem 1rem;
+  color: #fff;
+  cursor: pointer;
+  background-color:#30c59b;
+  border: none;
+}
+.url-shorten-results button.copied{
+  background: #fff;
+  color:#30c59b;
 }
 
 .url-shorten-results .url-shorten-result > div a:hover {
