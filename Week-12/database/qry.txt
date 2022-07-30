@@ -1,0 +1,6 @@
+SELECT description, MIN(weight) as min_weight
+FROM item;
+
+Select * from warehouse where location="Pune"
+
+select wname, count(*) as total_store FROM warehouse GROUP BY sid
