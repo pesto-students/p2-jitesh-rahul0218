@@ -1,0 +1,82 @@
+body {
+    font-family: "Lato";
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #f0f0f0;
+    padding-top: 20px;
+  }
+  
+  .sidenav i {
+    padding: 30px 30px 30px 10px;
+    text-decoration: none;
+    color: #b6b5b5;
+    display: block;
+  }
+  
+  .sidenav i:hover {
+    color: #7e7e7e;
+  }
+  
+  .main {
+    background-color: #454545;
+    margin-left: 30px; 
+    display: flex;
+}
+.icon{
+    margin: 40px;
+}
+.art{
+    padding-top: 30px;
+    color: #f0f0f0;
+}
+.play i{
+    size: 10px;
+    padding: 80px 50px 30px 0px;
+  
+}
+table {
+  width: 100%;
+  padding-left: 30px;
+}
+table td a{
+  text-decoration: none;
+  border:0.5px; border-style:solid; border-color: #454545; 
+}
+
+th, td {
+  text-align: left;
+  padding: 8px; 
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+  .footer {
+    margin-top: 200px;
+    margin-left: 30px; 
+    background-color: #43689b;
+    color: white;
+    padding: 0px;
+    display: flex; 
+  }
+  .title{
+    padding: 40px 0px 0px 0px;
+    margin-left: 5px;
+  }
+  .fticon{
+    float: left;
+  }
+  .fticon i{
+    padding: 50px 30px 30px 0px;
+    margin-left: 100px;
+  }
+  
+
+
+  
+  
+  
